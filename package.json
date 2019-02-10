@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "recipes app client with vue.js ",
   "author": "asmasaber <asmaa.saber93@gmail.com>",
+  "homepage":"https://github.com/asmasaber/Recipes",
   "private": true,
+  "wst": "/dist/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
