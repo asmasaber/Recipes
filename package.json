@@ -5,7 +5,6 @@
   "author": "asmasaber <asmaa.saber93@gmail.com>",
   "homepage":"https://github.com/asmasaber/Recipes",
   "private": true,
-  "wst": "/dist/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -14,7 +13,7 @@
     "lint": "eslint --ext .js,.vue src test/unit",
     "lint:fix": "eslint src/**/*.js  --fix",
     "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "deploy": "node ./node_modules/vue-gh-pages/index.js --branch gh-pages"
   },
   "dependencies": {
     "@johmun/vue-tags-input": "^1.6.0",
