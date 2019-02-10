@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '<Recipes_vue_appp>'
-} 
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/Recipes_vue_appp/'
+      : '/'
+  }
